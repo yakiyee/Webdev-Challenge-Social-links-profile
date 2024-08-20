@@ -24,4 +24,4 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ## My Solution
 
-you can check out my solution with the link :
+you can check out my solution with the link : https://yakiyee.github.io/Webdev-Challenge-Social-links-profile/
