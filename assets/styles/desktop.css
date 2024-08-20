@@ -1,0 +1,73 @@
+:root {
+  --Green: hsl(75, 94%, 57%);
+
+  --White: hsl(0, 0%, 100%);
+
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+
+  --Font-size: 14px;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("D:/New folder/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt,wght.ttf")
+    format("TrueType");
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: var(--Grey-900);
+}
+p {
+  font-size: var(--Font-size);
+  padding: 1.5em 0em 0.5em 0em;
+}
+
+.container {
+  background-color: var(--Grey-800);
+  width: 25em;
+  margin: 10em auto;
+  padding: 1em;
+  border-radius: 1em;
+  color: var(--White);
+  font-family: "Inter", sans-serif;
+  font-size: var(--Font-size);
+  text-align: center;
+}
+.container .profilePic {
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+  margin: 1em 0em 0em 0em;
+}
+.profileName {
+  font-weight: 700;
+}
+.location {
+  color: var(--Green);
+  font-weight: 600;
+  font-size: var(--Font-size);
+  margin: 0;
+}
+.container div {
+  background-color: var(--Grey-700);
+  display: block;
+  margin: 1.5em;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-weight: 600;
+}
+.container div:hover {
+  background-color: var(--Green);
+  color: black;
+}
